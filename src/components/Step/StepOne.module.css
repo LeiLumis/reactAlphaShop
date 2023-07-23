@@ -1,0 +1,60 @@
+.form{
+  margin: 0px 10px;
+  width: 540px;
+}
+.formTitle{
+  width: 96px;
+  height: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #2A2A2A;
+}
+.inputLine{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputGroup1 {
+  height: 64px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.inputGroup2 {
+  margin-left: 30px;
+  height: 64px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+.inputGroup3 {
+  height: 64px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+.inputGroup4 {
+  margin-left: 30px;
+  height: 64px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+.inputLabel{
+height: 16px;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+color: #808080;
+}
+.InputStyle, .selectStyle{
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  border: 1px solid #4A4A4A;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #999999;
+  box-sizing: border-box;
+}

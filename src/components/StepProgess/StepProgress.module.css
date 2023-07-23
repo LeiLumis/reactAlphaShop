@@ -1,0 +1,104 @@
+.stepProgress {
+/* border: 2px solid tomato; */
+margin: 0px 10px;
+width: 540px;
+}
+.checkBill {
+  /* border: 2px solid rgb(85, 255, 0); */
+  color: #2A2A2A;
+}
+.progressContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid yellowgreen; */
+  margin: 10px 0;
+}
+.progressGroup{
+  width: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 步驟一般（進行中）狀態 */
+.progressIcon {
+  border: 1px solid #2A2A2A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  color: #2A2A2A;
+  margin: auto;
+}
+.text{
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: center;
+  color: #2A2A2A;
+}
+.progressLabel {
+  color: #2A2A2A;
+  font-size: 16px;
+  font-weight: 400;
+  width: 64px;
+  height: 24px;
+}
+
+.progressBar {
+  width: 60px;
+  height: 3px;
+  background-color: #2A2A2A;
+}
+/* 步驟完成狀態 */
+.progressIcon::after {
+  border: 1px solid #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #333333;
+  margin: auto;
+}
+
+.text::after {
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: center;
+  color: #FFFFFF;
+}
+/* 步驟還未進行到狀態 */
+.progressIcon::before{
+  border: 1px solid #AFB1BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  color: #AFB1BD;
+  margin: auto;
+}
+
+.text::before {
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: center;
+  color: #AFB1BD;
+}
+
+.progressLabel::before {
+  color: #AFB1BD;
+  font-size: 16px;
+  font-weight: 400;
+  width: 64px;
+  height: 24px;
+}
+
+.progressBar::before {
+  width: 60px;
+  height: 3px;
+  background-color: #AFB1BD;
+}

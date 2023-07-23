@@ -1,0 +1,37 @@
+.progressControlContainer{
+  margin: 0px 10px;
+  width: 540px;
+}
+.divider{
+  margin: 20px 0px 30px;
+  height: 3px;
+  border: none;
+  background-color: #E6E6EB;
+}
+.buttonGroup{
+  display: flex;
+  justify-content: space-between;
+
+}
+.prev,.next,.empty{
+  margin: 0px 0px 10px;
+  width: 174px;
+  height: 46px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+
+}
+.next{
+background-color: #F67599;
+color: white;
+}
+.leftArrow{
+fill: black;
+}
+.rightArrow{
+fill: white;
+}
