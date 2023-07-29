@@ -1,5 +1,6 @@
 # ALPHASHOP
-![3A4ALPHAShopI](https://github.com/LeiLumis/reactAlphaShop/assets/121758559/e7d0e438-add1-4f66-a61f-d5029630b142)
+![image](https://github.com/LeiLumis/reactAlphaShop/assets/121758559/f18ebbb0-967f-48e9-966d-a8d3e846e84d)
+
 
 This is an online-shop with step control function to show the status of product.
 Three page to show different part include user information, delivery information, payment information.
