@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.stepForm{
+  width: 50%;
+  margin: 0 50px
+}
+.cart{
+  width: 50%;
+  margin: 0 50px
+}

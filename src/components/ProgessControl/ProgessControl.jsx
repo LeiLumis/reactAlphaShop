@@ -15,7 +15,7 @@ export function ProgessControl(){
           <RightArrow className={styles.rightArrow}/>
         </button>
       </section>
-      {/*  
+      {/*
       <section className={styles.buttonGroup} data-phase="shipping">
         <button className={styles.prev}>
           <LeftArrow className={styles.leftArrow}/>
