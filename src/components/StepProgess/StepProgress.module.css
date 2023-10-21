@@ -51,7 +51,7 @@ width: 540px;
   background-color: #2A2A2A;
 }
 /* 步驟完成狀態 */
-.progressIcon::after {
+.progressIconAfter {
   border: 1px solid #333333;
   display: flex;
   justify-content: center;
@@ -63,14 +63,14 @@ width: 540px;
   margin: auto;
 }
 
-.text::after {
+.textAfter {
   font-size: 12px;
   font-weight: 700;
   justify-content: center;
   color: #FFFFFF;
 }
 /* 步驟還未進行到狀態 */
-.progressIcon::before{
+.progressIconBefore{
   border: 1px solid #AFB1BD;
   display: flex;
   justify-content: center;
@@ -82,14 +82,14 @@ width: 540px;
   margin: auto;
 }
 
-.text::before {
+.textBefore {
   font-size: 12px;
   font-weight: 700;
   justify-content: center;
   color: #AFB1BD;
 }
 
-.progressLabel::before {
+.progressLabelBefore {
   color: #AFB1BD;
   font-size: 16px;
   font-weight: 400;
@@ -97,7 +97,7 @@ width: 540px;
   height: 24px;
 }
 
-.progressBar::before {
+.progressBarBefore {
   width: 60px;
   height: 3px;
   background-color: #AFB1BD;
