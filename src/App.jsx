@@ -5,7 +5,9 @@ import { ProgessControl } from './components/ProgessControl/ProgessControl.jsx';
 import { StepOne } from './components/Step/StepOne.jsx';
 import { StepTwo } from './components/Step/StepTwo.jsx';
 import { StepThree } from './components/Step/StepThree.jsx';
-import { Cart } from './components/Cart/Cart.jsx';
+import {Cart} from './components/Cart/Cart.jsx';
+import { CartProvider } from './components/Context/CartContext.jsx';
+import { PayInfoProvider } from './components/Context/PayInfoContext.jsx';
 
 export function StepPage({step}){
 
@@ -46,6 +48,8 @@ export default function App() {
   return (
     <div>
       <div className={styles.main}>
+        <PayInfoProvider>
+          <CartProvider>
         <div className={styles.stepForm}>
           <StepProgress step={step}/>
           <section>
@@ -54,8 +58,10 @@ export default function App() {
           <ProgessControl nextClick={nextClick} prevClick={prevClick} step={step}/>
         </div>
         <div className={styles.cart}>
-          <Cart/>
+            <Cart/>
         </div>
+        </CartProvider>
+        </PayInfoProvider>
       </div>
     </div>
   )
